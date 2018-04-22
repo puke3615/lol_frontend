@@ -1,0 +1,63 @@
+.cp_hero_list {
+    margin: 2%;
+}
+
+.hero_item {
+    margin: 10px;
+    /*height: 100px;*/
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.hero_item .avatar img {
+    width: 72px;
+    height: 72px;
+    align-self: center;
+    background: red;
+    justify-self: center;
+    border-radius: 50%;
+    border: 3px solid darkcyan;
+}
+
+.content_area {
+    display: flex;
+    margin-left: 15px;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+.hero_item .name_area {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hero_item .name {
+    color: #666666;
+    font-weight: bold;
+    font-size: large;
+    align-self: flex-start;
+}
+
+.hero_item .nickname {
+    color: #999999;
+    display: flex;
+    margin-left: 5px;
+    align-self: flex-end;
+}
+
+.hero_item .skill {
+    display: flex;
+    align-self: flex-start;
+}
+
+.hero_item .skill img {
+    /*background: darkcyan;*/
+    width: 36px;
+    height: 36px;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 1px solid darkcyan;
+}
+
